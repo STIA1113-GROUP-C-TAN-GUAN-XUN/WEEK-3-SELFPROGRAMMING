@@ -1,0 +1,15 @@
+package selfProgramming;
+
+public class Expressions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println(3 * 4); //evaluated
+		System.out.println("3 * 4"); //print text on the screen
+		
+		System.out.println(1 - 2 -3);
+		System.out.println(1- (2-3));
+		//evaluated from left-to-right
+	}
+
+}
