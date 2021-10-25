@@ -1,0 +1,23 @@
+package selfProgramming;
+
+public class PrimitiveData {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int oneThousand = 1000;
+		int oneMillion = 1000 * oneThousand;
+		int oneBillion = 1000 * oneMillion;
+		//int threeBillion = 3 * oneBillion;
+		long tenThousand = 10000;
+		long threeBillion = 300000 * tenThousand;
+		
+		System.out.println(oneThousand);
+		System.out.println(oneMillion);
+		System.out.println(oneBillion);
+		//System.out.println(threeBillion);
+		//This result overflowed int capacity
+		System.out.println(threeBillion);
+		
+	}
+
+}
