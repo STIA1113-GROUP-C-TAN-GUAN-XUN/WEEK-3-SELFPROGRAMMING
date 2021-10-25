@@ -1,0 +1,34 @@
+package selfProgramming;
+
+public class Variables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int total;
+		int count,temp,result;
+		
+		char topGrade= 'A';
+		char terminator =';';
+		//This primitive character variable only holds one character besides string object holds multiple character
+		//Multiple variables in one declaration
+		System.out.println(topGrade);
+		System.out.println(terminator);
+		System.out.println();
+		
+		//int luckyNumber;
+		//System.out.println(luckyNumber);
+		//error can not print out, the variable have not been initialized
+		
+		final double PI = 3.14159265;
+		final int MIN_HEIGHT = 69;
+		//This variable is known as constant which value will remain same entire whole existence
+		System.out.println(PI);
+		System.out.println(MIN_HEIGHT);
+		
+		boolean done = true;
+		boolean none = false;
+		//The only valid values for boolean is true & false
+		
+	}
+
+}
